@@ -62,11 +62,11 @@ def create_gif_from_images(folder_path, output_path="output.gif", fps=10, width=
     print(f"GIF created and saved at {output_path}")
 
 # (customize**)
-folder = "./images"
-output = "wrong2.gif"
-fps = 5
-width = int(1920 / 2)  # Target width
-height = int(1200 / 2)  # Target height
+folder = "your images folder path"
+output = "output gif name (e.g. output.gif)"
+fps = 5 
+width = int(1920 / 2)  # int*
+height = int(1200 / 2)  # int*
 # (customize**)
 
 create_gif_from_images(folder, output, fps, width, height)
